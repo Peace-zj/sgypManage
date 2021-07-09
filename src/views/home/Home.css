@@ -1,0 +1,55 @@
+p{
+    font-size:18px;
+    margin-bottom: 2px;
+}
+.card{
+    width: 250px ;
+    margin-top:10px;
+    text-align:center;
+}
+.cardOne{   
+    background-image: linear-gradient(135deg,#EEBD89,#f17de2);
+}
+.cardTwo{
+    background-image: linear-gradient(135deg,#C973FF,#AEBAF8);
+}
+.cardThree{
+    background-image: linear-gradient(135deg,#EAD6EE,#A0F1EA);
+}
+.cardFour{
+    background-image: linear-gradient(135deg,#9FA5D5,#E8F5C8);
+}
+.tab{
+    width:200px;
+    height:314px;
+    border:1px solid #ccc;
+}
+.divs{
+    display:flex;
+    justify-content:space-between;
+    margin-top:10px;
+    width:100%
+}
+.pro{
+    display: flex;
+    justify-content: center;  
+}
+.pro p{
+    font-size: 14px;
+}
+.prediv{
+    display: flex;
+    justify-content: space-between;
+}
+.sufdiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top:23px;
+}
+.sufdiv p{
+    font-size: 13px;
+    width:250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
