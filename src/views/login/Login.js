@@ -14,7 +14,6 @@ export default class Login extends Component {
         })
     }
     onFinish = values => {
-        // console.log('Received values of form: ', values);
         // console.log(typeof localStorage.getItem("cookie"))
         // let {roleType} = localStorage.getItem("cookie")
         // console.log(roleType)

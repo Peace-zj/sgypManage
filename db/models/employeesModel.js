@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
 
-// 创建一个与数据集合(表)相关的schema对象
 let employeesSchema = new mongoose.Schema({
   // id: {type:Number},
   code:{type:String,required:true},
@@ -22,9 +21,6 @@ let employeesSchema = new mongoose.Schema({
   roleType: {type:Number,required:true}
 })
 
-// 把schema对象转换成与数据集合相关的数据模型
-// mongoose.model('集合名/表名',schema对象)
 let Employees = mongoose.model('employees',employeesSchema)
-// 使用 User 数据模型来进行增删改查
 
 module.exports = Employees

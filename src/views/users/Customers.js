@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import './vip.css'
 import { Table, Modal, Button, Form, Input,Radio, Popconfirm,Tag} from 'antd';
 import {
     EditOutlined,

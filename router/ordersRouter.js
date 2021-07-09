@@ -2,10 +2,7 @@ const express = require('express')
 const router = express.Router()
 const Orders = require('../db/models/ordersModel')
 
-
-//
 router.get('/msg',(req,res)=>{
-    // 接收数据，处理数据，返回数据
     let {customer,tradeName} = req.query
     console.log(req.query)
     if(customer === undefined && tradeName === undefined){
@@ -41,9 +38,6 @@ router.get('/msg',(req,res)=>{
 
 //插入新的订单
 router.post('/neworder',(req,res)=>{
-  // let {}
-  // Orders.insertMany()
-  // console.log(req.body)
   let {tradeNum,tradeName,tradePrice,tradeColor,tradeImg,name,tel,address,customer} = req.body[0]
   // console.log(req.body)
   Orders.insertMany({tradeNum,tradeName,tradePrice,tradeColor,tradeImg,name,tel,address,customer})
@@ -54,6 +48,7 @@ router.post('/neworder',(req,res)=>{
     res.send(err)
   })
 })
+
 //查询未审核的订单
 router.get('/review',(req,res)=>{
     Orders.find({state:false})
@@ -64,6 +59,7 @@ router.get('/review',(req,res)=>{
         res.send(err)
     })
 })
+
 //修改订单审核状态
 router.post('/state',(req,res)=>{
     let {_id} = req.body

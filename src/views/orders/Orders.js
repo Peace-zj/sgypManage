@@ -5,7 +5,6 @@ import {
 } from '@ant-design/icons';
 import Axios from 'axios';
 const { Search } = Input;
-// import moment from 'moment'
 export default class Orders extends Component{
     state={
         dataSource:[]

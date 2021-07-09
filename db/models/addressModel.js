@@ -12,6 +12,5 @@ let addressSchema = new mongoose.Schema({
 // 把schema对象转换成与数据集合相关的数据模型
 // mongoose.model('集合名/表名',schema对象)
 let Address = mongoose.model('sites',addressSchema)
-// 使用 User 数据模型来进行增删改查
 
 module.exports = Address

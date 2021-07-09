@@ -1,7 +1,6 @@
 import React,{Component} from 'react'
 import echarts from "echarts"
 import axios from 'axios'
-// import _ from 'lodash'
 import {Divider,Progress,Statistic} from 'antd'
 export default class Askforleave extends Component{
     state={

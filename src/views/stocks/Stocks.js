@@ -1,11 +1,10 @@
 import React,{Component} from 'react'
-import { Table, Tag,Divider,Input } from 'antd';
+import { Table, Tag,Input } from 'antd';
 import {
     ReloadOutlined
 } from '@ant-design/icons';
 import Axios from 'axios';
 const { Search } = Input;
-// import moment from 'moment'
 export default class Stocks extends Component{
     state={
         dataSource:[]
@@ -58,10 +57,6 @@ export default class Stocks extends Component{
             render: text => <div>{text}</div>,
         }
       ];
-    handleEdit(data){
-        // console.log(moment(new Date().getTime()).format('HH:mm'))
-
-    }
     componentDidMount(){
         Axios.get('http://localhost:3003/stocks/msg').then(res=>{
             // console.log(res.data)
