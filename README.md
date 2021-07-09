@@ -27,32 +27,6 @@
 
 >   npm start
 
-## 系统界面截图
-
-1.后台首页
-
-![index](public\assets\后台首页.PNG)
-
-2.商品销售
-
-![sale]( https://github.com/Peace-zj/sgypManage/raw/master/public/assets/商品销售.PNG)
-
-3.商品信息
-
-![Product Information](assets\商品信息.PNG)
-
-4.审核订单
-
-![orders](assets\审核订单.PNG)
-
-5.用户信息
-
-![Customer Message](assets\用户信息.PNG)
-
-6.员工信息
-
-![Employees](assets/员工.PNG)
-
 ### 用户名和密码
 
 ***普通员工*** 
