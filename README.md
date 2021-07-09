@@ -31,27 +31,27 @@
 
 1.后台首页
 
-![index](.\images\后台首页.PNG)
+![index](assets\后台首页.PNG)
 
 2.商品销售
 
-![sale](.\images\商品销售.PNG)
+![sale](assets\商品销售.PNG)
 
 3.商品信息
 
-![Product Information](.\images\商品信息.PNG)
+![Product Information](assets\商品信息.PNG)
 
 4.审核订单
 
-![orders](.\images\审核订单.PNG)
+![orders](assets\审核订单.PNG)
 
 5.用户信息
 
-![Customer Message](.\images\用户信息.PNG)
+![Customer Message](assets\用户信息.PNG)
 
 6.员工信息
 
-![Employees](.\images\员工.PNG)
+![Employees](assets/员工.PNG)
 
 ### 用户名和密码
 
