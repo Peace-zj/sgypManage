@@ -31,11 +31,11 @@
 
 1.后台首页
 
-![index](assets\后台首页.PNG)
+![index](public\assets\后台首页.PNG)
 
 2.商品销售
 
-![sale](assets\商品销售.PNG)
+![sale]( https://github.com/Peace-zj/sgypManage/raw/master/public/assets/商品销售.PNG)
 
 3.商品信息
 
